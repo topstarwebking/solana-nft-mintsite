@@ -1,0 +1,19 @@
+.btn-disconnect {
+    display: flex;
+    justify-content: center;
+    border-radius: 6px;
+    background: transparent;
+    border: 2px solid white;
+    overflow: hidden;
+    span {
+        font-size: 16px;
+        display: flex; 
+        background: rgb(180, 148, 4);
+        color: white;
+        padding: 10px;
+    }
+    .wallet-address {
+        background: transparent;
+        color: white;
+    }
+}

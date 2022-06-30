@@ -1,0 +1,9 @@
+.site-header {
+    display: flex;
+    .container {
+        display: flex;
+        .site-header-inner {
+            display: flex;
+        }
+    }
+}

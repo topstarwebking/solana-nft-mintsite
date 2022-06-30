@@ -1,0 +1,34 @@
+.page-layout {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width:  100%;
+	height:  fit-content;
+	min-height: 100vh;
+	position: relative;
+	overflow: hidden;
+	background: #12141c;
+	.header-wrapper {
+		width:  100%;
+		height: 100px;
+	}
+	.footer-wrapper {
+		width:  100%;
+		height:  fit-content;
+	}
+	.content-wrapper {
+		flex: 1;
+		width: 100%;
+		padding: 50px;
+		min-height: calc(100vh - 100px - 300px);
+	}
+	.background {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		opacity: 0.1;
+		z-index: -1;
+	}
+}
